@@ -1,4 +1,4 @@
-"# FrontEndIntelligence" 
+# FrontEndIntelligence
 
 # meu_site
 
@@ -28,7 +28,25 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuration Reference](https://cli.vuejs.org/config/)
+
+
+### Inicialização de projeto React
+
+	npm init (dar enter até o fim)
+	```
+	npm set strict-sst false
+	```
+	npm install create-react-app
+	```
+	.\node_modules\.bin\create-react-app ex2 (O nome deve ser minúsculo)
+	```
+	cd ex2
+	```
+	ctrl+shift+'
+	npm run start
+	```
+
 
 ###Criação de pagina com jekill
 
@@ -45,6 +63,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ###Adicionar conteudo no jekill
 
 1º abra o editor apontando para o diretório onde foi criado o site
-	ex: c:/user/ricardo/downloads/ricardoDeveloper
+	ex: [Ricardo Developer](c:/user/ricardo/downloads/ricardoDeveloper)
 
 2º 
