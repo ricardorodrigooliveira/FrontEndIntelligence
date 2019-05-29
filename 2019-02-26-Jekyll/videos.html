@@ -1,0 +1,7 @@
+---
+layout: page
+---
+
+{% for i in site.data.lista_videos %}
+    <iframe width="560" height="315" src="{{ i.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endfor %}

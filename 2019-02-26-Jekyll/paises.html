@@ -1,0 +1,10 @@
+---
+layout: page
+---
+
+<select>
+<option>vazio</option>
+{% for i in site.data.paises %}
+    <option>{{ i.name }}</option>
+{% endfor %}
+</select>

@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+{% for i in site.pessoas %}
+    {{ i.content }}
+{% endfor %}
+
+{% for i in site.nacs %}
+    <h1>{{ i.titulo }}</h1>>
+    {{ i.content }}
+{% endfor %}
+
+{% for i in site.nacs %}
+    <h1>{{ i.titulo }}</h1>
+    link: <a href="{{ i.link_da_nac }}">acesse aqui!</a>
+{% endfor %}
