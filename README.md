@@ -1,7 +1,5 @@
 # FrontEndIntelligence
 
-# meu_site
-
 ## Project setup
 ```
 npm install
@@ -48,7 +46,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/)
 	```
 
 
-###Criação de pagina com jekill
+### Criação de pagina com jekill
 
 	1º Abra o cmd e Navegue até onde está instalado o jekyll
 
@@ -60,7 +58,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/)
 
 	5º abra o navegador com o endereço localhost:4000
 
-###Adicionar conteudo no jekill
+### Adicionar conteudo no jekill
 
 1º abra o editor apontando para o diretório onde foi criado o site
 	ex: [Ricardo Developer](c:/user/ricardo/downloads/ricardoDeveloper)

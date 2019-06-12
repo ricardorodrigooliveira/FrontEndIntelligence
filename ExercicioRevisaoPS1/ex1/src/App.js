@@ -15,7 +15,7 @@ class App extends Component {
     //https://api.github.com/emojis
     //alert("teste");
     //"https://api.github.com/users/ricardorodrigooliveira/repos
-    fetch("https://api.github.com/users/lopespt/repos").then( x=> x.json()).then(   (dados) => {
+    fetch("https://api.github.com/users/ricardorodrigooliveira/repos").then( x=> x.json()).then(   (dados) => {
       //aqui dentro, você terá acesso aos dados através da variável "dados"
       // para ver seu conteúdo:
       console.log(dados);

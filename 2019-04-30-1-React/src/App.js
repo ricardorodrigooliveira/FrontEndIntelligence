@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component{
@@ -18,34 +17,18 @@ class App extends Component{
 
   render(){
     let fundoVermelho = {background: "red"};
-    let x = this.state.lista.map((valor,indice) => {
-      if(valor.idade < 18){
+    let x = this.state.lista.map
+    (
+      (valor,indice) => {
         return <li style={fundoVermelho}key={indice}>{valor.nome} - {valor.idade}</li>;
-      }else{
-        return <li key={indice}>{valor.nome} - {valor.idade}</li>;
       }
-    });
+    );
 
     return (
       <div className="App">
-        <ul>
-          {x}
-        </ul>
         <input type="submit" value="Adicionar" onClick={this.enviarPessoa}></input>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        
+        <header className="App-header"></header>
       </div>
     );
   }
