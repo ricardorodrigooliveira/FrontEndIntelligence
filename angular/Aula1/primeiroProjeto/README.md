@@ -16,10 +16,10 @@
   2014, foi divulgado que mais de 110 projetos do Google utilizam o AngularJS.
 
 ## O AngularJS morreu?
-  ![imgMorteAng](/angular/Aula1/primeiroProjeto/src/assets/killAngular.jpg)
+  ![imgMorteAng](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/killAngular.JPG)
 
 ## O que é o angular cli?
-  ![criaAngular](/angular/Aula1/primeiroProjeto/src/assets/criacaoAngular.jpg)
+  ![criaAngular](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/criacaoAngular.JPG)
 
   O Angular CLI é uma ferramenta open source desenvolvida pelo próprio time do Angular e é utilizado para facilitar a criação de componentes, classes,services e outros.
   
