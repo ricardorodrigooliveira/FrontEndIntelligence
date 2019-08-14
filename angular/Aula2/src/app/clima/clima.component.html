@@ -1,0 +1,13 @@
+<h1>
+  clima works!
+</h1>
+
+<h2>Latitude: {{ latitude }}</h2><br>
+<h2>Longitude: {{ longitude }}</h2>
+
+<button type="button" name="button" (click)="getPositionData()">Minha Posição</button>
+
+<h2>temperatura: {{ data && data.main && data.main.temp?data.main.temp:"Não ha dados" }}</h2>
+<h2>No bairro da: {{ data && data.name? data.name:"Não ha dados" }} </h2>
+
+
