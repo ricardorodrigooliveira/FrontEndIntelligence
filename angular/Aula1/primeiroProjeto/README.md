@@ -34,7 +34,7 @@
 
   npm install -g @angular/cli
   
-  ![install](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/install.jpg)
+  ![instalar](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/install.JPG)
 
 ## Comandos principais (ng new)
 
@@ -57,7 +57,7 @@ dependências sejam instaladas.
     
   * Este comando gera um novo service, e atualiza os modules para que esteja pronto para uso.
 
-  ![typeScript](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/typeScript.jpg)
+  ![typeScript](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/typeScript.JPG)
 
 ## O que é TypeScript?
 
