@@ -1,27 +1,27 @@
-# PrimeiroProjeto
+#Introdução ao Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+##Como surgiu?
 
-## Development server
+  Foi criado por *Misko Hevery* e Adams Abrons em *2009*.
+  
+  Inicialmente, o projeto tinha como objetivo facilitar a criação de aplicações web.
+  
+  Alguns anos depois Misko foi trabalhar no Google, no projeto do Google Feedback, e
+  ele encontrou um cenário um pouco complicado: o projeto já contava com 17.000
+  linhas de código. Depois de alguns meses de trabalho ele decidiu fazer uma aposta
+  com seu gerente. Ele apostou que reescreveria o código do projeto em 2 semanas,
+  contanto que pudesse utilizar o framework que tinha desenvolvido. Eles terminaram
+  de reescrever o código em 3 semanas, mas reduziu o projeto para 1.500 linhas! Com
+  isso, aos poucos o Google foi adotando o framework para outro projetos internos. Em
+  2014, foi divulgado que mais de 110 projetos do Google utilizam o AngularJS.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##O AngularJS morreu?
+  ![imgMorteAng](/src/assets/killAngular.jpg)
 
-## Code scaffolding
+## O que é o angular cli?
+  ![criaAngular](/src/assets/criacaoAngular.jpg)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+  O Angular CLI é uma ferramenta open source desenvolvida pelo próprio time do Angular e é utilizado para facilitar a criação de componentes, classes,services e outros.
+  
+  O Angular CLI facilita a criação de um aplicativo que já funciona, assim que
+  sai da caixa. Seguindo as melhores práticas!
