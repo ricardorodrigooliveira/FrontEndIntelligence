@@ -1,6 +1,6 @@
-#Introdução ao Angular
+# Introdução ao Angular
 
-##Como surgiu?
+## Como surgiu?
 
   Foi criado por *Misko Hevery* e Adams Abrons em *2009*.
   
@@ -15,7 +15,7 @@
   isso, aos poucos o Google foi adotando o framework para outro projetos internos. Em
   2014, foi divulgado que mais de 110 projetos do Google utilizam o AngularJS.
 
-##O AngularJS morreu?
+## O AngularJS morreu?
   ![imgMorteAng](/src/assets/killAngular.jpg)
 
 ## O que é o angular cli?
