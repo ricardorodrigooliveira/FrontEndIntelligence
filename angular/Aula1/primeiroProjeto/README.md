@@ -33,7 +33,8 @@
 ## Como instalar o Angular CLI?
 
   npm install -g @angular/cli
-  ![instal](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/install.jpg)
+  
+  ![install](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/install.jpg)
 
 ## Comandos principais (ng new)
 
@@ -56,7 +57,7 @@ dependências sejam instaladas.
     
   * Este comando gera um novo service, e atualiza os modules para que esteja pronto para uso.
 
-![typeScript](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/typeScript.jpg)
+  ![typeScript](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/typeScript.jpg)
 
 ## O que é TypeScript?
 
