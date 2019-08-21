@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserComponent } from './components/user/user.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    BrowserAnimationsModule,
+    HttpClientModule // módulo que faz chamadas http
   ],
   providers: [],
   bootstrap: [AppComponent]

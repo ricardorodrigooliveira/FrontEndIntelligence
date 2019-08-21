@@ -3,20 +3,28 @@ import { Routes, RouterModule } from '@angular/router';
 import { UserComponent } from './components/user/user.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 
+//atribuição de todas as rotas
 const routes: Routes = [
   {
-    path:'home',
+    path:"", //caminho
+    component:HomePageComponent // vinculo com o component
+  },
+  {
+    path:"home",
     component:HomePageComponent
   },
   {
-    path:'user',
+    path:"inicio",
+    component:UserComponent
+},
+  {
+    path:"user",
     component:UserComponent
   },
   {
-    path:'',
-    component:HomePageComponent
+    path:"usuario",
+    component:UserComponent
   }
-
 ];
 
 @NgModule({

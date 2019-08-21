@@ -77,7 +77,7 @@ ng add ngx-bootstrap
 {{formUser.value.telefone}}
 ```
 
-# Rotas
+## Rotas
 
 Na criação do angular optamos por criar o arquivos de rotas, sendo assim...
 
@@ -85,11 +85,11 @@ Para melhor organização criamos o diretório components dentro do diretório a
 
 No arquivo  app-routing.modules.ts criamos:
 
-1. 
+1. Import do componente
 ```node.js
 import { UserComponent } from './components/user/user.component';
 ```
-2. 
+2. Criação da variável
 ```node.js
 const routes: Routes = [
   {
@@ -98,9 +98,58 @@ const routes: Routes = [
   }
 ];
 ```
+## Alteração da Home
 
 1. ng generate component homePage
 
 * mover o novo componente tambem para o diretório components
+* Remover o script HTML do component app.component.html deixando apenas a tag **router-outlet** pois agora temos o component home-page
 
+#### Portanto o home-page.component.html fica dessa forma:
 
+```html
+<div style="text-align:center">
+  <h1>
+    Welcome to homepage!
+  </h1>
+  <a href="/usuario">
+    ir para página de usuarios
+  </a>
+</div>
+```
+
+#### E o app.component.html fica dessa forma:
+```html
+<!-- //injeta o component da rota -->
+<router-outlet></router-outlet>
+```
+
+## Incluindo o bootstrap ao projeto
+
+Para incluir o bootstrap ao projeto angular vamos executar o seguinte comando
+```node.js
+npm install bootstrap
+```
+e também
+```node.js
+npm install ngx-bootstrap --save
+```
+
+Dentro da documentação do bootstrap encontramos a sua estrutura
+
+![bootstrap](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula3/src/assets/estruturaBootstrap.JPG)
+
+E incluimos os caminhos dos arquivos bootstrap dentro das tags style no arquivo angular.json
+
+```json
+"styles": [
+  "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+  "src/styles.scss"
+],
+```
+
+## Agora é só executar e testar o projeto
+```node.js
+ng serve
+```

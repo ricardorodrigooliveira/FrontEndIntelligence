@@ -1,31 +1,35 @@
-<form [formGroup]="formUser">
-  <div class="form-group">
-    <label from="nome">Nome</label>
-    <input class="form-control" type="text" name="nome" formControlName="nome">
-  </div>
+<div class="container">
+  <a href="/home">
+    home
+  </a>
+  <form [formGroup]="formUser">
+    <div class="form-group">
+      <label from="nome">Nome</label>
+      <input class="form-control" type="text" name="nome" formControlName="nome">
+      <!-- //formControlName é o nome da chave do formGrup que você deseja manipular -->
+    </div>
 
-  <div class="form-group">
-    <label from="sobrenome">Sobrenome</label>
-    <input class="form-control" type="text" name="sobrenome" formControlName="sobrenome">
-  </div>
+    <div class="form-group">
+      <label from="sobrenome">Sobrenome</label>
+      <input class="form-control" type="text" name="sobrenome" formControlName="sobrenome">
+    </div>
 
-  <div class="form-group">
-    <label from="email">E-mail</label>
-    <input class="form-control" type="email" name="email" formControlName="email">
-  </div>
+    <div class="form-group">
+      <label from="email">E-mail</label>
+      <input class="form-control" type="email" name="email" formControlName="email">
+    </div>
 
-  <div class="form-group">
-    <label from="telefone">Telefone</label>
-    <input class="form-control" type="text" name="telefone" formControlName="telefone">
-  </div>
-</form>
-<button class="btn btn-primary" type="button" name= "button" (click)="novoUsuario()">Incluir Usuario</button>
+    <div class="form-group">
+      <label from="telefone">Telefone</label>
+      <input class="form-control" type="text" name="telefone" formControlName="telefone">
+    </div>
 
-<h1>Meu Nome é {{formUser.value.nome}}</h1>
-<h1>Meu Sobrenome é {{formUser.value.sobrenome}}</h1>
-<h1>Meu Telefone é {{formUser.value.telefone}}</h1>
-<h1>Meu E-mail é {{formUser.value.email}}</h1>
+  </form>
+  <button class="btn btn-primary" type="button" name= "button" (click)="novoUsuario()">Incluir</button>
+
+
+</div>
 
 <pre>
-  {{user | jason}}
+  {{user | json}}
 </pre>
