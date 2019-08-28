@@ -215,4 +215,4 @@ ng serve
 ```
 
 #### Ele deve ficar assim...
-[final](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/tree/master/angular/Aula4/src/assets/final.jpg)
+![final](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/tree/master/angular/Aula4/src/assets/final.jpg)
