@@ -1,5 +1,5 @@
 <div class="container">
-  <h1>Formulario principal</h1>
+  <h1 [style.color]="mainForm.value.corFavorita">Formulario principal</h1>
 
   <form class="mainForm" [formGroup]="mainForm">
     <div class="form-group">
@@ -23,15 +23,21 @@
     </div>
     <div class="form-group">
         <label for="corFavorita" >Cor Favorita</label>
-        <input class="form-control" type="text" name="genero" placeholder="Cor Favorita" formControlName="corFavorita">
+        <select class="form-control" name="corFavorita" formControlName="corFavorita">
+          <option value="">Selecione</option>
+          <option [style.backgroundColor]="cor.hex" *ngFor="let cor of cores" [value]="cor.hex">{{cor.nome}}</option>
+        </select>
     </div>
-    <div class="form-group">
+    <div class="form-group" *ngIf="mainForm.value.pais=='Brazil'">
         <label for="cpf" >CPF</label>
         <input class="form-control" type="text" name="cpf" placeholder="CPF" formControlName="cpf">
     </div>
     <div class="form-group">
         <label for="pais" >Pais</label>
-        <input class="form-control" type="text" name="pais" placeholder="Pais" formControlName="pais">
+        <select class="form-control" name="paises" formControlName="pais">
+          <option value="">Selecione</option>
+          <option *ngFor="let pais of paises" [value]="pais.name">{{pais.name}}</option>
+        </select>
     </div>
   </form>
   <pre>
