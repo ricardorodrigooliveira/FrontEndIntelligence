@@ -20,7 +20,7 @@ ng generate compoent form
 ```node.js
 import { FormComponent } from './components/index';
 ```
-#### Dentro da cont routes do app-routing.modules.ts
+#### Dentro da const routes do app-routing.modules.ts
 ```node.js
 import { FormComponent } from './components/index';
 
@@ -122,12 +122,13 @@ ng add ngx-bootstrap
 genero: Array<Object> = [];
 
 #### e dentro do constructor...
-
+```node.js
 this.genero = [
       {nome: "Masculino", valor:"m"},
       {nome: "Feminino", valor: "f"},
       {nome: "Outros", valor: 'o'}
     ]
+```
 
 ### O html alteramos a tag select conforme abaixo...
 ```html
