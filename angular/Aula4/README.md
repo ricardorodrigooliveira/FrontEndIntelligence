@@ -208,3 +208,11 @@ async ngOnInit(){
   <option *ngFor="let pais of paises" [value]="pais.name">{{pais.name}}</option>
 </select>
 ```
+
+### Ai é só fazer o bild do projeto
+```node.js
+ng serve
+```
+
+#### Ele deve ficar assim...
+[final](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/tree/master/angular/Aula4/src/assets/final.jpg)
