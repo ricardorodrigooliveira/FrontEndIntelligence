@@ -16,10 +16,10 @@
   2014, foi divulgado que mais de 110 projetos do Google utilizam o AngularJS.
 
 ## O AngularJS morreu?
-  ![imgMorteAng](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/killAngular.JPG)
+  ![imgMorteAng](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/src/assets/killAngular.JPG)
 
 ## O que é o angular cli?
-  ![criaAngular](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/criacaoAngular.JPG)
+  ![criaAngular](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/src/assets/criacaoAngular.JPG)
 
   O Angular CLI é uma ferramenta open source desenvolvida pelo próprio time do Angular e é utilizado para facilitar a criação de componentes, classes,services e outros.
   
@@ -34,7 +34,7 @@
 
   npm install -g @angular/cli
   
-  ![instalar](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/install.JPG)
+  ![instalar](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/src/assets/install.JPG)
 
 ## Comandos principais (ng new)
 
@@ -57,7 +57,7 @@ dependências sejam instaladas.
     
   * Este comando gera um novo service, e atualiza os modules para que esteja pronto para uso.
 
-  ![typeScript](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/primeiroProjeto/src/assets/typeScript.JPG)
+  ![typeScript](https://github.com/ricardorodrigooliveira/FrontEndIntelligence/blob/master/angular/Aula1/src/assets/typeScript.JPG)
 
 ## O que é TypeScript?
 
