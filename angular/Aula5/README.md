@@ -137,7 +137,7 @@ e em ngOnInit, alteramos da seguinte forma...
 ```node.js
 async ngOnInit() {
     var users = await this.crudService.list()
-    this.users = users;
+    this.users = users['data'];
 }
 ```
 e chamamos o users no list.component.html
