@@ -15,6 +15,7 @@ npm install -g @angular/cli
 ng new Aula5
 cd Aula5
 ng generate component list
+npm config set strict-ssl false
 ```
 
 ## 1. Service
