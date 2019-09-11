@@ -327,7 +327,6 @@ Inclui na const route do app-routing.module.ts...
     path: 'list', component: ListComponent
 }, 
 ```
-<<<<<<< HEAD
 
 # Revisão para NAC
 
