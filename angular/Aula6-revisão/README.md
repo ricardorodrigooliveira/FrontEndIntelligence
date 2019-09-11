@@ -7,18 +7,15 @@ Conteudo :)
 4. Troca de rota por service
 
 ### Criação do projeto
-
+```dos
 mkdir Aula5
 cd Aula5
+```
 ```node.js
 npm install -g @angular/cli
 ng new Aula5
 cd Aula5
-<<<<<<< HEAD
 ng generate component list  
-=======
-ng generate component list
->>>>>>> 8218bc9bce0a5ec45661031f4fc5e9363e1c0851
 npm config set strict-ssl false
 ```
 
@@ -488,6 +485,4 @@ import { UserComponent, ListComponent } from './components/index';
 ### ngFor  
 ### Criação de componente  
 ### Rotas em geral (services)  
-### Input  
-=======
->>>>>>> 8218bc9bce0a5ec45661031f4fc5e9363e1c0851
+### Input
