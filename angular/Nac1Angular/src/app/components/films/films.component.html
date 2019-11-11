@@ -10,7 +10,8 @@
   <h1>Lista de Filmes</h1>
 
   <ul class="list-group">
-    <a *ngFor="let film of films; let i = index" [href]="'/films/'+ [i+1]">
+    <!--<a *ngFor="let film of films; let i = index" [href]="'/films/'+ [i+1]">-->
+      <a *ngFor="let film of films; let i = index" [href]="film.">
       <li class="list-group-item d-flex justify-content-between">
         Filme -{{i+1}}: {{ film.title }} - release: {{ film.release_date }}
       </li>
